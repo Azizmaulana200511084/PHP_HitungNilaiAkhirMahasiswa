@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Menghitung Nilai Mahasiswa Umc</title>
+    <link rel="stylesheet" href="/css/desain.css">
+</head>
+
+<body>
+    <form action="/menghitungnilai/tesimplementasi.php" method="post">
+        <div dir="rtl" trbidi="on" class="judul">
+            <img src="/gambar/umc.png">
+            <h1>Menghitung Nilai Akhir Mahasiswa<br>Universitas Muhammadiyah Cirebon</h1>
+        </div>
+        <div class="post">
+            <div class="position">
+                <div>
+                    Mahasiswa : <br>
+                    <input type="text" name="nama"><br><br>
+                </div>
+                <div>
+                    Matakuliah : <br>
+                    <input type="text" name="matkul"><br><br>
+                </div>
+                <div>
+                    Nilai Absen : <br>
+                    <input type="text" name="absen"><br><br>
+                </div>
+            </div>
+            <div class="position">
+                <div>
+                    Nilai Tugas : <br>
+                    <input type="text" name="tugas"><br><br>
+                </div>
+                <div>
+                    Nilai UTS : <br>
+                    <input type="text" name="uts"><br><br>
+                </div>
+                <div>
+                    Nilai UAS : <br>
+                    <input type="text" name="uas"><br><br>
+                </div>
+            </div>
+            <input class="submit" type="submit" value="Cek Nilai">
+        </div>
+    </form>
+</body>
+
+</html>

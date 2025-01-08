@@ -1,0 +1,257 @@
+html,
+body {
+    width: auto;
+    min-height: auto;
+    background-image: url('/gambar/walpaper.gif');
+    color: white;
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+.judul {
+    width: auto;
+    display: flex;
+    margin-right: 2%;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+}
+
+form {
+    width: auto;
+    display: block;
+}
+
+.post {
+    width: auto;
+    border: 3px yellow solid;
+    border-radius: 10px;
+    background-color: rgba(128, 0, 0, 0.275);
+    padding-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.position {
+    width: 100%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 2%;
+    font-size: 23px;
+    display: flex;
+}
+
+div {
+    width: 100%;
+    padding: 1%;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    background-color: maroon;
+    color: white;
+    border: 3px yellow solid;
+    border-radius: 10px;
+}
+
+.submit {
+    border: 3px yellow solid;
+    border-radius: 30px;
+    width: 800px;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: maroon;
+    color: white;
+}
+
+i {
+    text-align: center;
+}
+
+p,
+h4 {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
+    border: 3px yellow solid;
+    border-radius: 10px;
+    background-color: rgba(128, 0, 0, 0.67);
+}
+
+@media (min-width: 400px) and (max-width: 1300px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    judul {
+        width: auto;
+        display: flex;
+        font-size: 10px;
+        margin-right: 2%;
+    }
+    img {
+        width: 110px;
+        height: 110px;
+    }
+    form {
+        width: auto;
+        display: block;
+    }
+    .post {
+        width: auto;
+        border: 3px yellow solid;
+        border-radius: 15px;
+        background-color: rgba(128, 0, 0, 0.275);
+        padding-bottom: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .position {
+        width: 100%;
+        height: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding: 2%;
+        font-size: 18px;
+        display: flex;
+    }
+    div {
+        width: 100%;
+        padding: 1%;
+    }
+    input {
+        width: 85%;
+        height: 35px;
+        font-size: 18px;
+        background-color: maroon;
+        color: white;
+        border: 3px yellow solid;
+        border-radius: 10px;
+    }
+    .submit {
+        width: 85%;
+        height: 35px;
+        border: 3px yellow solid;
+        border-radius: 40px;
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: maroon;
+        color: white;
+    }
+    i {
+        text-align: center;
+    }
+    p,
+    h4 {
+        margin-left: 15%;
+        margin-right: 15%;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 25px;
+        border: 3px yellow solid;
+        border-radius: 10px;
+        background-color: rgba(128, 0, 0, 0.67);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .judul {
+        width: auto;
+        display: flex;
+        font-size: 8px;
+        margin-right: 2%;
+    }
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    form {
+        width: auto;
+        display: block;
+    }
+    .post {
+        width: auto;
+        border: 3px yellow solid;
+        border-radius: 10px;
+        background-color: rgba(128, 0, 0, 0.275);
+        padding-bottom: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .position {
+        width: 100%;
+        height: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding: 2%;
+        font-size: 15px;
+        display: flex;
+    }
+    div {
+        width: 100%;
+        padding: 1%;
+    }
+    input {
+        width: 80%;
+        height: 30px;
+        font-size: 15px;
+        background-color: maroon;
+        color: white;
+        border: 3px yellow solid;
+        border-radius: 10px;
+    }
+    .submit {
+        width: 85%;
+        height: 35px;
+        border: 3px yellow solid;
+        border-radius: 40px;
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: maroon;
+        color: white;
+    }
+    i {
+        text-align: center;
+    }
+    p,
+    h4 {
+        margin-left: 15%;
+        margin-right: 15%;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 25px;
+        border: 3px yellow solid;
+        border-radius: 10px;
+        background-color: rgba(128, 0, 0, 0.67);
+    }
+}
